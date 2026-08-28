@@ -20,4 +20,4 @@ The complete set of 40 distinct full-resolution apartment photographs is stored 
 
 The Booking buttons currently point to the supplied Booking.com share link.
 
-The verified apartment description, amenities, map, original photography, and owner contact links are implemented. Direct enquiries are available by WhatsApp, telephone, and email at `ppape62@gmail.com`.
+The verified apartment description, amenities, map, original photography, and owner contact links are implemented. Direct enquiries are available through Maja by WhatsApp, telephone, and email at `belusicmaja@gmail.com`.
