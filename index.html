@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Apartment Vecchio Mulino — a peaceful apartment stay in Croatia." />
+    <meta name="theme-color" content="#f7f4ed" />
+    <title>Apartment Vecchio Mulino</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Vecchio Mulino home">
+        <span>Vecchio</span><span>Mulino</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="menu-toggle__label" data-i18n="menu">Menu</span>
+        <span class="menu-toggle__icon" aria-hidden="true"><i></i><i></i></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#apartment" data-i18n="navApartment">The apartment</a>
+        <a href="#gallery" data-i18n="navGallery">Gallery</a>
+        <a href="#amenities" data-i18n="navAmenities">Amenities</a>
+        <a href="#location" data-i18n="navLocation">Location</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+        <div class="language-switcher" aria-label="Language">
+          <button type="button" data-lang="en" class="is-active" aria-pressed="true">EN</button>
+          <button type="button" data-lang="hr" aria-pressed="false">HR</button>
+          <button type="button" data-lang="it" aria-pressed="false">IT</button>
+        </div>
+        <a class="button button--small" href="https://www.booking.com/Share-Yrqv0R" target="_blank" rel="noopener noreferrer" data-i18n="availability">Check availability</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero__copy reveal">
+          <h1 data-i18n-html="heroTitle">A slower<br />kind of stay.</h1>
+          <span class="rule" aria-hidden="true"></span>
+          <p data-i18n="heroText">A characterful apartment in Bale, Istria, made for quiet mornings and unhurried evenings.</p>
+          <div class="hero__actions">
+            <a class="button" href="#apartment" data-i18n="explore">Explore the apartment</a>
+            <a class="button button--outline" href="https://www.booking.com/Share-Yrqv0R" target="_blank" rel="noopener noreferrer" data-i18n="bookBooking">Book on Booking.com</a>
+          </div>
+        </div>
+        <figure class="hero-photo reveal reveal--delay">
+          <img src="assets/photos/898668157(1).jpg" alt="Exterior view of Apartment Vecchio Mulino in Bale" fetchpriority="high" />
+          <figcaption>Apartment Vecchio Mulino · Bale</figcaption>
+        </figure>
+        <p class="hero__index">Bale · Istria · Croatia</p>
+      </section>
+
+      <section class="intro section" id="apartment">
+        <div class="section-label reveal">Apartment Vecchio Mulino</div>
+        <div class="intro__content reveal">
+          <h2 data-i18n-html="introTitle">Room to relax.<br /><em>Istria to explore.</em></h2>
+          <div class="intro__text">
+            <p class="lead" data-i18n="introLead">An 83 m², two-bedroom apartment in the historic Istrian town of Bale.</p>
+            <p data-i18n="introBody">Apartment Vecchio Mulino by Rent Istria has an air-conditioned living room, a fully equipped private kitchen with a refrigerator and coffee machine, and two private bathrooms with a shower and bidet. Towels and bed linen are provided, while the private terrace offers extra room to slow down and enjoy your stay.</p>
+          </div>
+        </div>
+        <div class="property-facts reveal" aria-label="Apartment facts">
+          <div><strong>83 m²</strong><span data-i18n="factApartment">Entire apartment</span></div>
+          <div><strong>2</strong><span data-i18n="factBedrooms">Bedrooms</span></div>
+          <div><strong>2</strong><span data-i18n="factBathrooms">Private bathrooms</span></div>
+          <div><strong>3 + 1</strong><span data-i18n="factBeds">Beds + sofa bed</span></div>
+        </div>
+      </section>
+
+      <section class="gallery section" id="gallery" aria-labelledby="gallery-title">
+        <div class="gallery__heading reveal">
+          <h2 id="gallery-title" data-i18n-html="galleryTitle">A glimpse<br />inside.</h2>
+          <p><span data-i18n="galleryText">Explore every room, detail and outdoor space.</span><strong class="gallery-count">40 <span data-i18n="photographs">photographs</span></strong></p>
+        </div>
+        <div class="gallery__grid" id="gallery-grid">
+          <button class="gallery-card reveal" type="button" data-gallery-index="0" aria-label="Open photograph 1 of 40">
+            <img src="assets/photos/875835439.jpg" alt="Bright living room with sectional sofa and television" loading="lazy" decoding="async" />
+            <span>01</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="1" aria-label="Open photograph 2 of 40">
+            <img src="assets/photos/875836003.jpg" alt="Bathroom toiletries in a tiled shower niche" loading="lazy" decoding="async" />
+            <span>02</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="2" aria-label="Open photograph 3 of 40">
+            <img src="assets/photos/875836010.jpg" alt="Bright private kitchen and wooden dining table" loading="lazy" decoding="async" />
+            <span>03</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="3" aria-label="Open photograph 4 of 40">
+            <img src="assets/photos/875836017.jpg" alt="Kitchen counter with fruit and fresh flowers" loading="lazy" decoding="async" />
+            <span>04</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="4" aria-label="Open photograph 5 of 40">
+            <img src="assets/photos/875836025.jpg" alt="Double bedroom with towels and mirrored wardrobe" loading="lazy" decoding="async" />
+            <span>05</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="5" aria-label="Open photograph 6 of 40">
+            <img src="assets/photos/875836030.jpg" alt="Covered private terrace with outdoor lounge furniture" loading="lazy" decoding="async" />
+            <span>06</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="6" aria-label="Open photograph 7 of 40">
+            <img src="assets/photos/875836033.jpg" alt="Single bedroom with floral bedding and wooden beams" loading="lazy" decoding="async" />
+            <span>07</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="7" aria-label="Open photograph 8 of 40">
+            <img src="assets/photos/875836039.jpg" alt="Single bedroom with wardrobe and exposed ceiling beams" loading="lazy" decoding="async" />
+            <span>08</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="8" aria-label="Open photograph 9 of 40">
+            <img src="assets/photos/875836050.jpg" alt="Double bedroom beneath skylight and timber beams" loading="lazy" decoding="async" />
+            <span>09</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="9" aria-label="Open photograph 10 of 40">
+            <img src="assets/photos/875836053.jpg" alt="Fully equipped kitchen with oven, stovetop and sink" loading="lazy" decoding="async" />
+            <span>10</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="10" aria-label="Open photograph 11 of 40">
+            <img src="assets/photos/875836065.jpg" alt="Double bedroom with fresh linens and bedside tables" loading="lazy" decoding="async" />
+            <span>11</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="11" aria-label="Open photograph 12 of 40">
+            <img src="assets/photos/875836075.jpg" alt="Washing machine available in the apartment" loading="lazy" decoding="async" />
+            <span>12</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="12" aria-label="Open photograph 13 of 40">
+            <img src="assets/photos/875836083.jpg" alt="Modern bathroom with walk-in shower and illuminated mirror" loading="lazy" decoding="async" />
+            <span>13</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="13" aria-label="Open photograph 14 of 40">
+            <img src="assets/photos/875836092.jpg" alt="Single bedroom detail with bedside lamp and fresh towels" loading="lazy" decoding="async" />
+            <span>14</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="14" aria-label="Open photograph 15 of 40">
+            <img src="assets/photos/875836100.jpg" alt="Living room detail with flowers and sofa bed" loading="lazy" decoding="async" />
+            <span>15</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="15" aria-label="Open photograph 16 of 40">
+            <img src="assets/photos/875836108.jpg" alt="Second bathroom with shower, bidet and arched window" loading="lazy" decoding="async" />
+            <span>16</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="16" aria-label="Open photograph 17 of 40">
+            <img src="assets/photos/875836112.jpg" alt="Living room with flat-screen television and seating area" loading="lazy" decoding="async" />
+            <span>17</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="17" aria-label="Open photograph 18 of 40">
+            <img src="assets/photos/875836120.jpg" alt="Second bathroom with shower and bidet" loading="lazy" decoding="async" />
+            <span>18</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="18" aria-label="Open photograph 19 of 40">
+            <img src="assets/photos/875836129(1).jpg" alt="Modern bathroom with walk-in shower and floating vanity" loading="lazy" decoding="async" />
+            <span>19</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="19" aria-label="Open photograph 20 of 40">
+            <img src="assets/photos/875836138(1).jpg" alt="Living room with air conditioning and sectional sofa" loading="lazy" decoding="async" />
+            <span>20</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="20" aria-label="Open photograph 21 of 40">
+            <img src="assets/photos/875836143.jpg" alt="Bathroom vanity detail" loading="lazy" decoding="async" />
+            <span>21</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="21" aria-label="Open photograph 22 of 40">
+            <img src="assets/photos/875836153.jpg" alt="Modern bathroom sink with guest toiletries" loading="lazy" decoding="async" />
+            <span>22</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="22" aria-label="Open photograph 23 of 40">
+            <img src="assets/photos/875836159.jpg" alt="Single bedroom with wardrobe and fresh linens" loading="lazy" decoding="async" />
+            <span>23</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="23" aria-label="Open photograph 24 of 40">
+            <img src="assets/photos/875836167.jpg" alt="Terrace table and outdoor lounge detail" loading="lazy" decoding="async" />
+            <span>24</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="24" aria-label="Open photograph 25 of 40">
+            <img src="assets/photos/875836172.jpg" alt="Dining room with direct access to the terrace" loading="lazy" decoding="async" />
+            <span>25</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="25" aria-label="Open photograph 26 of 40">
+            <img src="assets/photos/875836181.jpg" alt="Sunny private terrace with covered seating" loading="lazy" decoding="async" />
+            <span>26</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="26" aria-label="Open photograph 27 of 40">
+            <img src="assets/photos/875836188.jpg" alt="Twin bedroom with two single beds and skylight" loading="lazy" decoding="async" />
+            <span>27</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="27" aria-label="Open photograph 28 of 40">
+            <img src="assets/photos/875836197.jpg" alt="Double bedroom reading light and fresh linens" loading="lazy" decoding="async" />
+            <span>28</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="28" aria-label="Open photograph 29 of 40">
+            <img src="assets/photos/875836203.jpg" alt="Spacious living room with sectional sofa and dining room beyond" loading="lazy" decoding="async" />
+            <span>29</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="29" aria-label="Open photograph 30 of 40">
+            <img src="assets/photos/875836209.jpg" alt="Kitchen and dining area with large windows" loading="lazy" decoding="async" />
+            <span>30</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="30" aria-label="Open photograph 31 of 40">
+            <img src="assets/photos/875836214.jpg" alt="Double bedroom and adjoining modern bathroom" loading="lazy" decoding="async" />
+            <span>31</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="31" aria-label="Open photograph 32 of 40">
+            <img src="assets/photos/875836219.jpg" alt="Work desk beneath the stairs beside the living room" loading="lazy" decoding="async" />
+            <span>32</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="32" aria-label="Open photograph 33 of 40">
+            <img src="assets/photos/875836223(1).jpg" alt="Covered terrace with outdoor furniture" loading="lazy" decoding="async" />
+            <span>33</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="33" aria-label="Open photograph 34 of 40">
+            <img src="assets/photos/875836227(1).jpg" alt="Double bedroom with skylight and fresh towels" loading="lazy" decoding="async" />
+            <span>34</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="34" aria-label="Open photograph 35 of 40">
+            <img src="assets/photos/875836234.jpg" alt="Double bedroom entrance beneath exposed wooden beams" loading="lazy" decoding="async" />
+            <span>35</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="35" aria-label="Open photograph 36 of 40">
+            <img src="assets/photos/875836244(1).jpg" alt="Fully equipped kitchen and dining table" loading="lazy" decoding="async" />
+            <span>36</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="36" aria-label="Open photograph 37 of 40">
+            <img src="assets/photos/898668157(1).jpg" alt="Exterior view of Apartment Vecchio Mulino in Bale" loading="lazy" decoding="async" />
+            <span>37</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="37" aria-label="Open photograph 38 of 40">
+            <img src="assets/photos/898668159.jpg" alt="Side exterior of the apartment building in Bale" loading="lazy" decoding="async" />
+            <span>38</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="38" aria-label="Open photograph 39 of 40">
+            <img src="assets/photos/898668160(1).jpg" alt="Front exterior of Apartment Vecchio Mulino" loading="lazy" decoding="async" />
+            <span>39</span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-gallery-index="39" aria-label="Open photograph 40 of 40">
+            <img src="assets/photos/898668162.jpg" alt="Private apartment entrance with traditional stone wall" loading="lazy" decoding="async" />
+            <span>40</span>
+          </button>
+        </div>
+        <div class="gallery__more reveal">
+          <button class="button button--outline gallery__toggle" type="button" aria-controls="gallery-grid" aria-expanded="false" data-i18n="showAllPhotos">See all 40 photos</button>
+        </div>
+      </section>
+
+      <dialog class="lightbox" aria-label="Apartment photo viewer">
+        <button class="lightbox__close" type="button" aria-label="Close photo viewer">×</button>
+        <button class="lightbox__previous" type="button" aria-label="Previous photograph">←</button>
+        <figure>
+          <img src="" alt="" />
+          <figcaption><span data-lightbox-caption></span><span data-lightbox-count></span></figcaption>
+        </figure>
+        <button class="lightbox__next" type="button" aria-label="Next photograph">→</button>
+      </dialog>
+
+      <section class="amenities section section--dark" id="amenities" aria-labelledby="amenities-title">
+        <div class="amenities__heading reveal">
+          <h2 id="amenities-title" data-i18n-html="amenitiesTitle">Everything you need,<br /><em>thoughtfully placed.</em></h2>
+          <p data-i18n="amenitiesPending">Comfort, practical details and space for an easy Istrian stay.</p>
+        </div>
+        <div class="amenities__list" aria-label="Apartment amenities">
+          <div class="amenity reveal"><span class="amenity__icon" aria-hidden="true">01</span><span data-i18n="amenitySleeping">Sleeping arrangements</span><small data-i18n="amenitySleepingDetail">1 extra-large double bed, 2 single beds and 1 sofa bed</small></div>
+          <div class="amenity reveal"><span class="amenity__icon" aria-hidden="true">02</span><span data-i18n="amenityKitchen">Private kitchen</span><small data-i18n="amenityKitchenDetail">Dishwasher, oven, stovetop, microwave, refrigerator, coffee machine, kettle and toaster</small></div>
+          <div class="amenity reveal"><span class="amenity__icon" aria-hidden="true">03</span><span data-i18n="amenityComfort">Comfort</span><small data-i18n="amenityComfortDetail">Air conditioning, washing machine, seating and dining areas</small></div>
+          <div class="amenity reveal"><span class="amenity__icon" aria-hidden="true">04</span><span data-i18n="amenityBathrooms">Two bathrooms</span><small data-i18n="amenityBathroomsDetail">Shower, bidet, hairdryer, towels and essentials</small></div>
+          <div class="amenity reveal"><span class="amenity__icon" aria-hidden="true">05</span><span data-i18n="amenityOutdoor">Terrace & access</span><small data-i18n="amenityOutdoorDetail">Outdoor furniture, private entrance and free private parking</small></div>
+          <div class="amenity reveal"><span class="amenity__icon" aria-hidden="true">06</span><span data-i18n="amenityEntertainment">Connected & equipped</span><small data-i18n="amenityEntertainmentDetail">Free Wi-Fi, flat-screen satellite TV, safe, desk and mosquito net</small></div>
+        </div>
+      </section>
+
+      <section class="location section" id="location">
+        <div class="location__copy reveal">
+          <div class="section-label" data-i18n="locationLabel">Location</div>
+          <h2 data-i18n-html="locationTitle">In the heart of Bale.<br /><em>Made for exploring.</em></h2>
+          <p data-i18n="locationText">Stay among Bale’s characterful streets, with western Istria ready to discover beyond the front door.</p>
+          <ul class="nearby-list">
+            <li><strong>12 km</strong><span data-i18n="nearCastle">Morosini-Grimani Castle</span></li>
+            <li><strong>14 km</strong><span data-i18n="nearArch">Balbi Arch</span></li>
+            <li><strong>15 km</strong><span data-i18n="nearRovinj">Cathedral of St. Euphemia, Rovinj</span></li>
+            <li><strong>21 km</strong><span data-i18n="nearPula">Pula Arena</span></li>
+          </ul>
+          <address>Ul. Aldo Negri 4<br />52210 Bale, Croatia</address>
+          <a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Ul.%20Aldo%20Negri%204%2C%2052210%20Bale%2C%20Croatia" target="_blank" rel="noopener noreferrer" data-i18n="directions">Open directions ↗</a>
+        </div>
+        <div class="map-embed reveal reveal--delay">
+          <iframe title="Map showing Apartment Vecchio Mulino in Bale" src="https://www.google.com/maps?q=Ul.%20Aldo%20Negri%204,%2052210%20Bale,%20Croatia&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section class="booking-cta" id="contact">
+        <div><span class="booking-cta__mark" aria-hidden="true">✦</span><h2 data-i18n="ctaTitle">Ready for your stay?</h2></div>
+        <div class="booking-cta__actions">
+          <a class="button button--light" href="https://www.booking.com/Share-Yrqv0R" target="_blank" rel="noopener noreferrer" data-i18n="availability">Check availability</a>
+          <a class="button button--ghost" href="https://wa.me/385919500362?text=Hello%2C%20I%27m%20interested%20in%20Apartment%20Vecchio%20Mulino." target="_blank" rel="noopener noreferrer" data-i18n="whatsapp">Enquire on WhatsApp</a>
+          <a class="button button--ghost" href="mailto:ppape62@gmail.com?subject=Apartment%20Vecchio%20Mulino%20enquiry" data-i18n="emailOwner">Send an email</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand brand--footer" href="#top"><span>Vecchio</span><span>Mulino</span></a>
+      <div class="site-footer__links">
+        <a href="https://www.booking.com/Share-Yrqv0R" target="_blank" rel="noopener noreferrer">Booking.com</a>
+        <a href="https://wa.me/385919500362?text=Hello%2C%20I%27m%20interested%20in%20Apartment%20Vecchio%20Mulino." target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <a href="tel:+385919500362">+385 91 950 0362</a>
+        <a href="mailto:ppape62@gmail.com">ppape62@gmail.com</a>
+      </div>
+      <p>© <span data-year>2026</span> Apartment Vecchio Mulino</p>
+    </footer>
+  </body>
+</html>
